@@ -1,1 +1,1 @@
-# mks66-curves
+# mks66-3d
