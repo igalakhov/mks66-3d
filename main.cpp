@@ -15,18 +15,18 @@
 
 int main(){
 
-    int hello[5];
+//    int hello[5];
 
-    hello[1] = 13;
+//    hello[1] = 13;
 
-    std::cout << -1[hello];
+//    std::cout << -1[hello];
 
-//    auto d = new Drawer();
-//
-//    auto m = new EdgeMatrix();
-//    auto t = TransformationMatrix::identity();
-//
-//    auto p = new MDLParser("script.mdl");
-//
-//    p->run_file(m, t, d);
+    auto d = new Drawer();
+
+    auto m = new EdgeMatrix();
+    auto t = TransformationMatrix::identity();
+
+    auto p = new MDLParser("script.mdl");
+
+    p->run_file(m, t, d);
 }
