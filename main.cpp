@@ -14,12 +14,19 @@
 #include "drawing/parametric/parametric.h"
 
 int main(){
-    auto d = new Drawer();
 
-    auto m = new EdgeMatrix();
-    auto t = TransformationMatrix::identity();
+    int hello[5];
 
-    auto p = new MDLParser("../script.mdl");
+    hello[1] = 13;
 
-    p->run_file(m, t, d);
+    std::cout << -1[hello];
+
+//    auto d = new Drawer();
+//
+//    auto m = new EdgeMatrix();
+//    auto t = TransformationMatrix::identity();
+//
+//    auto p = new MDLParser("script.mdl");
+//
+//    p->run_file(m, t, d);
 }
