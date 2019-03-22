@@ -13,8 +13,12 @@ void MDLParser::run_file(EdgeMatrix * m, TransformationMatrix * t, Drawer * d) {
     while(std::getline(file, str)){
         trim(str);
 
-        if(str == "ident"){ // transformations
+        if(str == "ident") { // transformations
             t->copy_vals(TransformationMatrix::identity());
+        } else if(str == "clear"){
+            t = TransformationMatrix::identity();
+            d->clear();
+            m = new EdgeMatrix();
         } else if(str == "display"){
             d->clear();
             d->draw_edges(m);

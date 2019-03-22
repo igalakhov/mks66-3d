@@ -15,12 +15,6 @@
 
 int main(){
 
-//    int hello[5];
-
-//    hello[1] = 13;
-
-//    std::cout << -1[hello];
-
     auto d = new Drawer();
 
     auto m = new EdgeMatrix();
